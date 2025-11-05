@@ -4,9 +4,17 @@
 
 ## 📱 다운로드
 
+### Android
+
 **최신 APK 파일**: [Auto-Fliper.apk](Auto-Fliper.apk) 직접 다운로드
 
 또는 [GitHub Releases](https://github.com/FMsongX2/Auto-Flipper/releases)에서 최신 버전을 다운로드하세요.
+
+### iOS
+
+iOS 버전은 macOS에서 빌드가 필요합니다. 자세한 빌드 방법은 [IOS_BUILD_GUIDE.md](IOS_BUILD_GUIDE.md)를 참고하세요.
+
+**참고**: iOS 빌드는 macOS와 Xcode가 필요하며, 실제 기기에 설치하려면 Apple Developer 계정이 필요합니다.
 
 ---
 

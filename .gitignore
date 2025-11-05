@@ -75,3 +75,6 @@ Thumbs.db
 # APK files (except release APK)
 *.apk
 !Auto-Fliper.apk
+
+# API keys (sensitive information)
+lib/config/api_keys.dart
