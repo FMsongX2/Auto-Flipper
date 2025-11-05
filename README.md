@@ -2,6 +2,15 @@
 
 드럼 연주 시 악보를 자동으로 넘겨주는 Flutter 기반 모바일 애플리케이션입니다.
 
+## 📱 다운로드
+
+**최신 APK 파일**: [Auto-Fliper.apk](Auto-Fliper.apk) 직접 다운로드
+
+또는 [GitHub Releases](https://github.com/FMsongX2/Auto-Flipper/releases)에서 최신 버전을 다운로드하세요.
+
+---
+
+
 ## 프로젝트 목적
 
 합주나 연주 중에 악보를 수동으로 넘기는 것은 번거로우며, 타이밍을 놓칠 수 있습니다. 이 프로젝트는 BPM(Beats Per Minute)과 박자표를 기반으로 악보 페이지를 자동으로 넘겨주어, 드럼 연주자가 음악에 집중할 수 있도록 돕기 위해 개발되었습니다.
@@ -44,36 +53,9 @@
 - **[json_annotation](https://pub.dev/packages/json_annotation)** (v4.8.1) - JSON 직렬화
 - **[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)** (v0.13.1) - 앱 아이콘 생성
 
-## 설치 및 실행
-
-### 필수 요구사항
-- Flutter SDK 3.9.2 이상
-- Dart SDK 3.9.2 이상
-
-### 설치 방법
-
-```bash
-# 저장소 클론
-git clone <repository-url>
-cd Drum_p
-
-# 의존성 설치
-flutter pub get
-
-# 앱 실행
-flutter run
-```
-
-자세한 설치 가이드는 [INSTALL.md](INSTALL.md)를 참고하세요.
 
 ## 라이센스
 
-이 프로젝트는 **Free** 라이센스를 따릅니다. 자유롭게 사용, 수정, 배포할 수 있습니다.
+이 프로젝트는 **Apache 2.0** 라이센스를 따릅니다. 자유롭게 사용, 수정, 배포할 수 있습니다.
 
-## 기여
 
-이슈나 개선 사항이 있으시면 이슈를 등록하거나 Pull Request를 보내주세요.
-
-## 문의
-
-프로젝트에 대한 질문이나 제안이 있으시면 이슈를 등록해주세요.

@@ -72,5 +72,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# APK files
+# APK files (except release APK)
 *.apk
+!Auto-Fliper.apk
