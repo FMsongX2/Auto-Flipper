@@ -1,0 +1,26 @@
+// This is a basic Flutter widget test.
+//
+// To perform an interaction with a widget in your test, use the WidgetTester
+// utility in the flutter_test package. For example, you can send tap and scroll
+// gestures. You can also use WidgetTester to find child widgets in the widget
+// tree, read text, and verify that the values of widget properties are correct.
+
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:drum_projcet/main.dart';
+import 'package:drum_projcet/state/score_provider.dart';
+
+void main() {
+  testWidgets('App starts with splash screen', (WidgetTester tester) async {
+    // Build our app and trigger a frame.
+    final provider = ScoreProvider();
+    await provider.loadSavedData();
+    await tester.pumpWidget(MyApp(provider: provider));
+
+    // Wait for async initialization
+    await tester.pumpAndSettle();
+
+    // Verify that splash screen or main screen is displayed
+    expect(find.byType(MaterialApp), findsOneWidget);
+  });
+}
